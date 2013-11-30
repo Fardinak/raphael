@@ -86,7 +86,7 @@
             }
         }
     }
-    R.version = "2.1.2";
+    R.version = "2.1.2 (id enabled)";
     R.eve = eve;
     var loaded,
         separator = /[, ]+/,
@@ -194,6 +194,7 @@
             gradient: 0,
             height: 0,
             href: "http://raphaeljs.com/",
+            id: '',
             "letter-spacing": 0,
             opacity: 1,
             path: "M0,0",
