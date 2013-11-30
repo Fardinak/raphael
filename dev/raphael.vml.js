@@ -164,6 +164,7 @@ window.Raphael && window.Raphael.vml && function(R) {
             a.path = R._getPath[o.type](o);
             o._.dirty = 1;
         }
+        params.id && (node.id = params.id);
         params.href && (node.href = params.href);
         params.title && (node.title = params.title);
         params.target && (node.target = params.target);
